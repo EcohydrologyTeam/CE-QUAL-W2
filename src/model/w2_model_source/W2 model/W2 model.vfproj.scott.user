@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioUserFile ProjectCreator="Intel Fortran" Keyword="Win32 Application" Version="11.0" ProjectIdGuid="{67BCEB4E-1875-44B5-B6DE-06E83F427036}">
+	<Configurations>
+		<Configuration Name="Debug|Win32" WorkingDirectory="C:\Scott\research\Idaho Power\Mercury Modeling Brownlee Hells Canyon Oxbow 2017-2019\Model_HCC_4.5\Model_HCC_combined_4.5_WQ_iter87\Brownlee_WQ"/>
+		<Configuration Name="Release|Win32" WorkingDirectory="C:\Scott\research\corps of engineers\tomcole\w2code\Version 4.3\DeGray Reservoir_ExcelControlFIle_4.5"/>
+		<Configuration Name="Debug|x64" WorkingDirectory="C:\Scott\research\corps of engineers\tomcole\w2code\Version 4.5\DeGray Reservoir_ExcelControlFIle_4.5"/>
+		<Configuration Name="Release|x64" WorkingDirectory="C:\Scott\research\Oroville-Thermalito\StructuralSimulationModel\Long-term model tests\Afterbay"/></Configurations></VisualStudioUserFile>

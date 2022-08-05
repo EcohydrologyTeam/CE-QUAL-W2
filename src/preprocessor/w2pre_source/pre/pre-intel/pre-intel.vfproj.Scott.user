@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioUserFile ProjectCreator="Intel Fortran" Keyword="QuickWin" Version="11.0" ProjectIdGuid="{AE034CD1-7EB9-4529-8395-543688EE9436}">
+	<Configurations>
+		<Configuration Name="Debug|Win32" WorkingDirectory="C:\Scott\research\corps of engineers\tomcole\w2code\Version 4.3\DeGray Reservoir_ExcelControlFIle_4.5"/>
+		<Configuration Name="Release|Win32" WorkingDirectory="C:\Scott\research\corps of engineers\tomcole\w2code\Version 4.0\test\bluewhale63621326952154"/>
+		<Configuration Name="Debug|x64" WorkingDirectory="C:\Scott\research\Shasta Sacramento River Basin USBR Mike Deas\Whiskytown Model\WL 2016 input files_071222"/>
+		<Configuration Name="Release|x64" WorkingDirectory="C:\Scott\research\Oroville-Thermalito\Model Afterbay\Preprocessor Error Analysis"/></Configurations></VisualStudioUserFile>
