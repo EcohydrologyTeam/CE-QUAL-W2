@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioUserFile ProjectCreator="Intel Fortran" Keyword="QuickWin" Version="11.0" ProjectIdGuid="{AE034CD1-7EB9-4529-8395-543688EE9436}">
+	<Configurations>
+		<Configuration Name="Debug|Win32"/>
+		<Configuration Name="Release|Win32"/>
+		<Configuration Name="Debug|x64" WorkingDirectory="C:\scott\w2workshop\Personalized training\Cardo 2 day training\waterqual\problem9"/>
+		<Configuration Name="Release|x64"/></Configurations></VisualStudioUserFile>
