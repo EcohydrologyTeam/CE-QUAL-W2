@@ -6,6 +6,7 @@ The following instructions will guide you through though setting up Python to ru
 2. Run JupyterLab, a modern computing environment that allows you to run Python code interactively. It also contains a number of useful features, such as a file browser and image and PDF viewer.
 
 Generalized instructions for Windows, MacOS, Linux are located on the Anaconda website:
+
 [https://conda.io/projects/conda/en/latest/user-guide/getting-started.html](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
 
 Once you have JupyterLab running, you will be able to open and run one of the provided "Jupyter Notebook" files.
