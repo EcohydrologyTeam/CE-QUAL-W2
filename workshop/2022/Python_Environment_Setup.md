@@ -20,7 +20,7 @@ Once you have JupyterLab running, you will be able to open and run one of the pr
 cd C:\Users\MyName\Desktop\CE-QUAL-W2-main\workshop\Day2\2.11_Worskhop_Model_Utilities\DeGray_Reservoir
 ```
 
-* Verify that you have changed to the right directory in the Anaconda Prompt. Type `pwd` and press the `Enter` key on your keyboard. This stands for "print working directory". It will display the full path to your folder.
+Verify that you have changed to the right directory in the Anaconda Prompt. Type `pwd` and press the `Enter` key on your keyboard. This stands for "print working directory". It will display the full path to your folder.
 
 ```
 pwd
