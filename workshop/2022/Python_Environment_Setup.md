@@ -15,7 +15,22 @@ Once you have JupyterLab running, you will be able to open and run one of the pr
 * Enter one space using the spacebar on your keyboard.
 * Go to your file browser (Windows Explorer) and browse to the folder that contains the files we will be using. For this example, the correct folder will be "DeGray_Reservoir", which is located inside the "2.11_Workshop_Model_Utilities" folder.
 * Drag and drop the DeGray_Reservoir folder to the Anaconda Prompt. Then press the Enter key.
+
+```
+cd C:\Users\MyName\Desktop\CE-QUAL-W2-main\workshop\Day2\2.11_Worskhop_Model_Utilities\DeGray_Reservoir
+```
+
 * Verify that you have changed to the right directory in the Anaconda prompt. Type "pwd" without the quotes and press Enter. This stands for "print working directory". It will display the full path to your folder.
+
+```
+pwd
+```
+
+In your command prompt, you should see the full path to your folder displayed. For the example above, this will be:
+
+```
+cd C:\Users\MyName\Desktop\CE-QUAL-W2-main\workshop\Day2\2.11_Worskhop_Model_Utilities\DeGray_Reservoir
+```
 
 #### 3. Create a new virtual environment, a sandbox that will contain only the software you want to use. Please type or copy-paste the following in the Anaconda Prompt:
 
