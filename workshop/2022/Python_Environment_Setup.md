@@ -1,6 +1,6 @@
 # CE-QUAL-W2 Workshop: Python and JupyterLab
 
-The following instructions will guide you in how to use the Anaconda distribution of Python to:
+The following instructions will guide you through though setting up Python to run the workshop exercises, using the Anaconda distribution of Python. The instructions will show you how to:
 
 1. Install a custom library of software you will need for this workshop
 2. Run JupyterLab, a modern computing environment that allows you to run Python code interactively. It also contains a number of useful features, such as a file browser and image and PDF viewer.
