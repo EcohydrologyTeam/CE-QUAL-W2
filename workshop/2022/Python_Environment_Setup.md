@@ -26,7 +26,7 @@ cd C:\Users\MyName\Desktop\CE-QUAL-W2-main\workshop\Day2\2.11_Worskhop_Model_Uti
 pwd
 ```
 
-In your command prompt, you should see the full path to your folder displayed. For the example above, this will be:
+In your command prompt, you should see the full path to your folder displayed. For the example above, this would be:
 
 ```
 cd C:\Users\MyName\Desktop\CE-QUAL-W2-main\workshop\Day2\2.11_Worskhop_Model_Utilities\DeGray_Reservoir
