@@ -19,18 +19,26 @@ Once you have JupyterLab running, you will be able to open and run one of the pr
 
 #### 3. Create a new virtual environment, a sandbox that will contain only the software you want to use. Please type or copy-paste the following in the Anaconda Prompt:
 
+```
 conda create --name w2 python=3.9
+```
 
 #### 4. Activate your new environment. Enter the following:
 
+```
 conda activate w2
+```
 
 #### 5. Install the software libraries will will require for this workshop. Enter the following:
 
-conda install numpy matplotlib seaborn pandas h5py yaml bokeh ipython openpyxl jupyter jupyterlab
+```
+conda install -c conda-forge numpy scipy matplotlib seaborn pandas h5py yaml bokeh ipython openpyxl jupyter jupyterlab
+```
 
 #### 6. If the above steps have run correctly, without errors. You are now ready to run JupyterLab. Please enter the following. Note: "jupyter lab" is written as two words.
 
+```
 jupyter lab
+```
 
 When JupyterLab launches, you are ready to open a notebook.
