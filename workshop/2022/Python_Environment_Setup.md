@@ -9,12 +9,13 @@ Once you have JupyterLab running, you will be able to open and run one of the pr
 
 #### 1. Open your Anaconda Prompt. This is also known as a terminal. It will allow you to enter a series of commands, as shown below.
 
-#### 2. Change to the directory containing the files we will be working with for workshop 2.11. This will ensure that everything you need for the workshop will be easy to access. You will first need to change directories within the Anaconda prompt. Please do the following:
+#### 2. Change to the directory containing the files we will be working with for workshop 2.11. This will ensure that everything you need for the workshop will be easy to access. You will first need to change directories within the Anaconda prompt.
 
-* Type the letters "cd" without the quotes. This stands for "change directory".
-* Type one space on the spacebar.
-* Go to your file browser (Windows Explorer). Drag and drop the folder that contains the 2.11_Workshop_Introduction_to_Python.ipynb file to the Anaconda Prompt.
-* Verify that you have changed to the right directory.
+* In the Anaconda Prompt, type the letters "cd" without the quotes. This stands for "change directory".
+* Enter one space using the spacebar on your keyboard.
+* Go to your file browser (Windows Explorer) and browse to the folder that contains the files we will be using. For this example, the correct folder will be "DeGray_Reservoir", which is located inside the "2.11_Workshop_Model_Utilities" folder.
+* Drag and drop the DeGray_Reservoir folder to the Anaconda Prompt. Then press the Enter key.
+* Verify that you have changed to the right directory in the Anaconda prompt. Type "pwd" without the quotes and press Enter. This stands for "print working directory". It will display the full path to your folder.
 
 #### 3. Create a new virtual environment, a sandbox that will contain only the software you want to use. Please type or copy-paste the following in the Anaconda Prompt:
 
