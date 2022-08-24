@@ -1,6 +1,6 @@
 # CE-QUAL-W2
 
-CE‐QUAL‐W2 is a two‐dimensional (2D), laterally averaged (longitudinal/vertical), hydrodynamics and water quality model for rivers, estuaries, lakes, reservoirs and river basin systems. CE-QUAL-W2 models basic eutrophication processes such as the interactions between temperature, nutrients, algae, dissolved oxygen, organic matter, and sediment. Because the model assumes lateral homogeneity, it is especially suited for relatively long and narrow waterbodies exhibiting longitudinal and vertical water quality gradients. The model has been applied to rivers, lakes, reservoirs, estuaries, and combinations thereof.  
+CE‐QUAL‐W2 is a two‐dimensional (2D), laterally averaged (longitudinal/vertical), hydrodynamics and water quality model for reservoirs, rivers, estuaries, lakes, and river basin systems. CE-QUAL-W2 models basic eutrophication processes such as the interactions between temperature, nutrients, algae, dissolved oxygen, organic matter, and sediment. Because the model assumes lateral homogeneity, it is especially suited for relatively long and narrow waterbodies exhibiting longitudinal and vertical water quality gradients. The model has been applied to rivers, lakes, reservoirs, estuaries, and combinations thereof.  
 
 | ![CE-QUAL-W2 Model Schematic](images/CE-QUAL-W2_Model_Schematic.png) |
 |--|
