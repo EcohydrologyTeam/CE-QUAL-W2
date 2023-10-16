@@ -100,4 +100,4 @@ CE-QUAL-W2 Version 4.5 functions under the following general assumptions: Flows 
 * Portland State University (PSU): Dr. Zhonglong Zhang and Dr. Scott Wells
 * LimnoTech, Inc.: Dr. Billy Johnson
 
-[^1] CE = Corps of Engineers; QUAL = Water Quality; W2 = Width-averaged 2D
+[^1]: CE = Corps of Engineers; QUAL = Water Quality; W2 = Width-averaged 2D
