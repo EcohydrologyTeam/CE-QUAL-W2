@@ -36,6 +36,6 @@ This work leverages the previous ANSRP project "Operational Strategies for HABs 
 
 The new Harmful Algal Bloom simulation capabilities of CE-QUAL-W2 will advance USACE's ability to understand and manage HABs by enabling a comprehensive assessment of the current environmental conditions that are conducive to the emergence, spread, timing, proliferation, movement, and decline of HABs. This project will improve the USACE's capacity to evaluate various mitigation scenarios and collaborate with other stakeholders within the watershed to coordinate broad-scale mitigation efforts. It will also be instrumental in predicting the potential impacts of future climatic changes on the formation and intensity of HABs. USACE staff can then develop and implement targeted mitigation strategies to preserve ecological balance and protect water quality.
 
-| ![Graphical Abstract](Graphical Abstract - Development of a Predictive HAB Planning Tool using CE-QUAL-W2.pdf) |
+| ![Graphical Abstract](Graphical-Abstract.pdf) |
 | -- |
 | Graphical Abstract |
