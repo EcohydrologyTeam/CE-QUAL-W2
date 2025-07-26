@@ -1,0 +1,33 @@
+# === Fortran build artifacts ===
+*.mod
+*.o
+*.obj
+
+# === Python cache and environment ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.ipynb_checkpoints
+.env
+.venv/
+env/
+venv/
+
+# === Word and temporary Office artifacts ===
+~$*.doc*
+*.tmp
+*.swp
+*.lock
+
+# === Editor/project files ===
+*.DS_Store
+*.vscode/
+*.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === OS-generated files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
