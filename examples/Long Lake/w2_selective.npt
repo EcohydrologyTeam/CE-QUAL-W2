@@ -1,0 +1,38 @@
+Selective input control file 
+Temperature outlet control - frequency of output for temperature
+OUT FREQ TFRQTMP
+           0.125
+Structure outlet control based on time and temperature and branch
+DYNSTR1  CONTROL     NUM    FREQ
+              ON       4    1.00
+                                                            10.0   12.0
+DYNSTR2    ST/WD      JB   JS/NW  YEARLY    TSTR    TEND    TEMP   NELEV   ELEV1   ELEV2   ELEV3   ELEV4   ELEV5   ELEV6   ELEV7   ELEV8   ELEV9  ELEV10
+1             ST       1       1      ON     1.0   151.0     5.0       2    330.    340.    340
+2             ST       1       1      ON   151.1   181.0    12.0       2    330.    320.    340
+3             ST       1       1      ON   181.1   273.0    16.0       2    330.    320.    340
+4             ST       1       1      ON   273.1   365.0    10.0       2    330.    320.    340
+ 
+MONITOR LOC ISEG    ELEV  DYNSEL
+1              0    -185     OFF
+2              0    -185     OFF
+3              0    -185     OFF
+4              0    -185     OFF
+
+AUTO ELEVCONTROL
+1            OFF
+2            OFF
+3            OFF
+4            OFF
+
+SPLIT1      CNTR     NUM
+             OFF       1
+
+SPLIT2     ST/WD      JB  YEARLY    TSTR    TEND TTARGET   NOUTS JS1/NW1 JS2/NW2  ELCONT DYNSPLT
+1             ST       1      ON     10.     45.     12.       2       1       1      ON     OFF
+
+THRESH1    TEMPN
+               2
+
+THRESH2 TEMPCRITTEMPCRIT
+1          11.11   11.11
+2          15.55   15.55

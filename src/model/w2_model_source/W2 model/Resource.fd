@@ -1,0 +1,71 @@
+!
+! C:\Scott\research\corps of engineers\tomcole\w2code\Version 4.3\v4.3+Z
+! hongUpdates\W2 model\Resource.fd generated from C:\Scott\research\corp
+! s of engineers\tomcole\w2code\Version 4.3\v4.3+ZhongUpdates\W2 model\R
+! esource.h
+!
+      integer, parameter :: dew_point_temperature = 1018
+      integer, parameter :: low = 1043
+      integer, parameter :: stop_execution = 1036
+      integer, parameter :: gateflow = 1047
+      integer, parameter :: cloud_cover = 1022
+      integer, parameter :: average_timestep = 1008
+      integer, parameter :: run = 1040
+      integer, parameter :: IDD_DIALOG1 = 101
+      integer, parameter :: min_deviation_segment = 1028
+      integer, parameter :: surface_elevation = 1012
+      integer, parameter :: solar_radiation = 1024
+      integer, parameter :: iterations = 1039
+      integer, parameter :: pipeflow = 1058
+      integer, parameter :: close = 1041
+      integer, parameter :: highest = 1048
+      integer, parameter :: pause = 1046
+      integer, parameter :: julian_day = 1002
+      integer, parameter :: IDI_ICON1 = 102
+      integer, parameter :: wind_speed = 1020
+      integer, parameter :: IDI_ICON2 = 103
+      integer, parameter :: spillwayflow = 1055
+      integer, parameter :: resume = 1047
+      integer, parameter :: elapsed_hour = 1017
+      integer, parameter :: min_deviation = 1011
+      integer, parameter :: timestep = 1005
+      integer, parameter :: normal = 1050
+      integer, parameter :: min_timestep = 1000
+      integer, parameter :: restart = 1042
+      integer, parameter :: current_time = 1026
+      integer, parameter :: wind_direction = 1019
+      integer, parameter :: timestep_violations = 1009
+      integer, parameter :: min_timestep_location = 1001
+      integer, parameter :: pumpflow = 1056
+      integer, parameter :: julian_hour = 1013
+      integer, parameter :: outflow = 1037
+      integer, parameter :: min_timestep_hour = 1015
+      integer, parameter :: air_temperature = 1010
+      integer, parameter :: lowest = 1044
+      integer, parameter :: tributary_inflow = 1031
+      integer, parameter :: branch_inflow_temperature = 1033
+      integer, parameter :: PROGRESSBAR = 1060
+      integer, parameter :: tributary_inflow_temperature = 1035
+      integer, parameter :: IDC_PROGRESS1 = 1059
+      integer, parameter :: distributed_tributary_inflow = 1032
+      integer, parameter :: dist_tributary_inflow_temperature = 1030
+      integer, parameter :: equilibrium_temp = 1021
+      integer, parameter :: gregorian_day = 1003
+      integer, parameter :: surface_layer = 1029
+      integer, parameter :: structure_outflow = 1053
+      integer, parameter :: starting_time = 1025
+      integer, parameter :: ending_time = 1027
+      integer, parameter :: percent = 1049
+      integer, parameter :: surface_heat_exchange = 1023
+      integer, parameter :: Modeldirectory = 1054
+      integer, parameter :: branch_inflow = 1034
+      integer, parameter :: elapsed_day = 1014
+      integer, parameter :: status = 1038
+      integer, parameter :: output_dialog = 101
+      integer, parameter :: timestep_location = 1007
+      integer, parameter :: idle = 1051
+      integer, parameter :: min_timestep_day = 1016
+      integer, parameter :: withdrawal = 1046
+      integer, parameter :: cpu_times = 1052
+      integer, parameter :: dist_tributary_inflow = 1032
+      integer, parameter :: high = 1045

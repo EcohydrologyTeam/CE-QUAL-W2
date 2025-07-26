@@ -1,0 +1,62 @@
+ENVIRONMENTAL PERFORMANCE CRITERIA CE-QUAL-W2 MODEL
+EPR COMP  INTVLS SELECTC   JDAY1   JDAY2    ISTR    IEND 
+              20     OFF    100.    150.       5      25   
+
+TEMP/VEL VELOCTY   VINCR    VTOP    TEMP   TINCR    TTOP  DEPTHC   DINCR    DTOP   
+             OFF   0.050    0.50      ON     1.0    30.0     OFF     10.    120.  
+
+CST       ACTIVE INTSCLE TOPLMIT
+TDS          OFF    1.00   20.00
+WaterAge      ON    1.00   20.00   
+Gen2          ON    1.00   20.00       
+GEN3          ON    1.00   20.00    
+ISS1          ON    1.00   20.00
+PO4          OFF    1.00   20.00
+NH4          OFF    1.00   20.00
+NO3          OFF    1.00   20.00
+DSI          OFF    1.00   20.00
+PSI          OFF    1.00   20.00
+FE           OFF    1.00   20.00
+LDOM         OFF    1.00   20.00
+RDOM         OFF    1.00   20.00
+LPOM         OFF    1.00   20.00
+RPOM         OFF    1.00   20.00
+ALG1         OFF    1.00   20.00
+DO            ON    1.00   20.00                        ! 26
+TIC          OFF    1.00   20.00
+ALK          OFF    1.00   20.00
+ZOO1         OFF    1.00   20.00
+LDOM-P       OFF    1.00   20.00
+RDOM-P       OFF    1.00   20.00
+LPOM-P       OFF    1.00   20.00
+RPOM-P       OFF    1.00   20.00
+LDOM-N       OFF    1.00   20.00
+RDOM-N       OFF    1.00   20.00
+LPOM-N       OFF    1.00   20.00
+RPOM-N       OFF    1.00   20.00
+        
+CST DERI  ACTIVE INTSCLE TOPLMIT
+DOC          OFF    1.00   20.00
+POC          OFF    1.00   20.00
+TOC          OFF    1.00   20.00
+DON          OFF    1.00   20.00
+PON          OFF    1.00   20.00
+TON          OFF    1.00   20.00
+TKN          OFF    1.00   20.00
+TN           OFF    1.00   20.00
+DOP          OFF    1.00   20.00
+POP          OFF    1.00   20.00
+TOP          OFF    1.00   20.00
+TP           OFF    1.00   20.00
+APR          OFF    1.00   20.00
+CHLA         OFF    1.00   20.00                     ! 14
+ATOT         OFF    1.00   20.00
+%DO          OFF    1.00   20.00
+TSS          OFF    1.00   20.00
+TISS         OFF    1.00   20.00
+CBOD         OFF    1.00   20.00
+pH           OFF    1.00   20.00
+CO2          OFF    1.00   20.00
+HCO3         OFF    1.00   20.00
+CO3          OFF    1.00   20.00
+               

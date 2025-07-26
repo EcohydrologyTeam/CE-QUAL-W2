@@ -1,0 +1,10 @@
+Water Balance input file for Console Application
+"el_obs.npt"              , file for observations
+"tsr_2_seg3.csv"         , tsr file for model predictions     - note this assumes V4 and later since it only has a one line file header
+"qwb1.npt"                , Output file name
+1                         , NSKIPS - number of skips of data
+1                         , NAV - averaging interval, number of data points to average
+1,1                       , waterbody to perform water balance: JW1:STARTWB,JW2:ENDWB:1,2=WB1&2;1,1==WB1 ONLY
+3                         , number of lines to skip in the header for the water level data file - here it skips 3 lines in the file header
+0                         , past water balance PWB file: Yes==1, No==0
+"qwb.npt"                 , Previous Water Balance file name (usually should be same as Output file name)

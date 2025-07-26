@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Win32 Application" Version="11.0" ProjectIdGuid="{67BCEB4E-1875-44B5-B6DE-06E83F427036}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" TargetName="w2_ivf64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" EnableRecursion="true" EmitDiagnosticsToFile="true" DebugParameter="debugParameterAll" WarnDeclarations="true" RealKIND="realKIND8" LocalSavedScalarsSNaN="true" LocalSavedScalarsZero="true" InitArrays="true" Traceback="true" BoundsCheck="true" UninitializedVariablesCheck="true" RuntimeLibrary="rtMultiThreadedDebug" UseWindowsLibs="true" Interfaces="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemWindows"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" HeaderFileName="$(InputName).h"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32" TargetName="w2_v4_32">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/debug:inline-debug-info" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeFull" UseProcessorExtensions="codeExclusivelyAVX2" Preprocess="preprocessYes" EnableRecursion="true" DebugParameter="debugParameterAll" RealKIND="realKIND8" LocalSavedScalarsZero="true" FloatingPointModel="source" Traceback="true" UseWindowsLibs="true"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" GenerateDebugInformation="true" GenerateMapFile="true" SubSystem="subSystemWindows"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" HeaderFileName="$(InputName).h"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64" TargetName="w2_ivf64_45">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" EnableRecursion="true" DebugParameter="debugParameterAll" WarnInterfaces="true" RealKIND="realKIND8" FloatingPointModel="precise" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug" UseWindowsLibs="true" Interfaces="true"/>
+				<Tool Name="VFLinkerTool" OutputFile="$(OutDir)\w2_ivf64_45.exe" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemWindows"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64" HeaderFileName="$(InputName).h"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64" TargetName="w2_v4_64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Preprocess="preprocessYes" EnableRecursion="true" WarnInterfaces="true" RealKIND="realKIND8" FloatingPointExceptionHandling="fpe1" FloatingPointModel="source" Traceback="true" UseWindowsLibs="true"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" SubSystem="subSystemWindows"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64" HeaderFileName="$(InputName).h"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		<File RelativePath="..\w2.rc"/>
+		<File RelativePath="..\w2_big.ico"/></Filter>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\aerate.f90"/>
+		<File RelativePath="..\az.f90"/>
+		<File RelativePath="..\balances.F90"/>
+		<File RelativePath="..\date.f90"/>
+		<File RelativePath="..\density.f90"/>
+		<File RelativePath="..\Diagenesis Bubbles Code 01.f90"/>
+		<File RelativePath="..\Diagenesis FFT Layer 01.f90"/>
+		<File RelativePath="..\Diagenesis Input 02.f90"/>
+		<File RelativePath="..\Diagenesis Input Files Read 01.f90"/>
+		<File RelativePath="..\Diagenesis Output 02.f90"/>
+		<File RelativePath="..\Diagenesis Sediment Flux Model 05.f90"/>
+		<File RelativePath="..\Diagenesis Sediment Model 03.f90">
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" EnableRecursion="true" WarnInterfaces="false"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" EnableRecursion="true"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" EnableRecursion="true"/></FileConfiguration></File>
+		<File RelativePath="..\endsimulation.F90"/>
+		<File RelativePath="..\envir_perf.f90"/>
+		<File RelativePath="..\fishhabitat.f90"/>
+		<File RelativePath="..\gas-transfer.f90"/>
+		<File RelativePath="..\gate-spill-pipe.f90"/>
+		<File RelativePath="..\heat-exchange.f90"/>
+		<File RelativePath="..\hydroinout.F90"/>
+		<File RelativePath="..\init-cond.F90">
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" Optimization="optimizeMinSpace"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" Optimization="optimizeMinSpace"/></FileConfiguration></File>
+		<File RelativePath="..\init-geom.F90"/>
+		<File RelativePath="..\init-u-elws.f90">
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" Optimization="optimizeMinSpace"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" Optimization="optimizeMinSpace"/></FileConfiguration></File>
+		<File RelativePath="..\init.F90"/>
+		<File RelativePath="..\input.F90"/>
+		<File RelativePath="..\layeraddsub.F90"/>
+		<File RelativePath="..\macrophyte-aux.f90"/>
+		<File RelativePath="..\output.f90"/>
+		<File RelativePath="..\outputa2w2tools.F90"/>
+		<File RelativePath="..\outputinitw2tools.F90"/>
+		<File RelativePath="..\particle.f90"/>
+		<File RelativePath="..\preprocessor_definitions.fpp"/>
+		<File RelativePath="..\restart.f90"/>
+		<File RelativePath="..\screen_output_intel.f90">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" EnableRecursion="false"/></FileConfiguration></File>
+		<File RelativePath="..\shading.f90"/>
+		<File RelativePath="..\systdg.f90"/>
+		<File RelativePath="..\tdg.f90"/>
+		<File RelativePath="..\TDGtarget.f90"/>
+		<File RelativePath="..\temperature.F90"/>
+		<File RelativePath="..\time-varying-data.f90"/>
+		<File RelativePath="..\transport.f90"/>
+		<File RelativePath="..\update.F90"/>
+		<File RelativePath="..\w2_4_win.f90"/>
+		<File RelativePath="..\w2modules.F90"/>
+		<File RelativePath="..\water-quality.f90"/>
+		<File RelativePath="..\waterbody.f90"/>
+		<File RelativePath="..\withdrawal.f90"/>
+		<File RelativePath="..\wqconstituents.F90"/></Filter>
+		<File RelativePath=".\Resource.h">
+			<FileConfiguration Name="Debug|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="deftofd &quot;$(InputPath)&quot; &quot;$(InputDir)$(InputName).fd&quot;" Description="Generating Fortran include file..." Outputs="$(InputDir)$(InputName).fd"/></FileConfiguration>
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="deftofd &quot;$(InputPath)&quot; &quot;$(InputDir)$(InputName).fd&quot;" Description="Generating Fortran include file..." Outputs="$(InputDir)$(InputName).fd"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="deftofd &quot;$(InputPath)&quot; &quot;$(InputDir)$(InputName).fd&quot;" Description="Generating Fortran include file..." Outputs="$(InputDir)$(InputName).fd"/></FileConfiguration>
+			<FileConfiguration Name="Release|Win32">
+				<Tool Name="VFCustomBuildTool" CommandLine="deftofd &quot;$(InputPath)&quot; &quot;$(InputDir)$(InputName).fd&quot;" Description="Generating Fortran include file..." Outputs="$(InputDir)$(InputName).fd"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>

@@ -1,0 +1,56 @@
+Selective input control file 
+Temperature outlet control - frequency of output for temperature
+OUT FREQ TFRQTMP
+        0.041667
+Structure outlet control based on time and temperature and branch
+DYNSTR1  CONTROL    NUM    FREQ
+              ON     10    7.00
+                                 
+DYNSTR2    ST/WD      JB   JS/NW  YEARLY    TSTR    TEND    TEMP   NELEV   ELEV1   ELEV2   ELEV3   ELEV4   ELEV5   ELEV6   ELEV7   ELEV8   ELEV9  ELEV10
+1             ST       1       2      ON     1.0    91.0   13.90       4  275.29  244.81  214.33  188.09   ! PH flow, use max temp obj.
+2             ST       1       2      ON    91.0   182.0   17.20       4  275.29  244.81  214.33  188.09   !	      use max temp obj.
+3             ST       1       2      ON   182.0   244.0   14.45       4  275.29  244.81  214.33  188.09
+4             ST       1       2      ON   244.0   366.0    9.75       4  275.29  244.81  214.33  188.09
+5             ST       2       2      ON     1.0   366.0   99.99       4  172.21  168.40  158.50  144.78   ! F-K Canal, no temperature objective
+6             ST       2       3      ON     1.0   366.0   99.99       4  172.21  166.88  155.45  140.21   ! Madera Canal, no temperature objective
+7             ST       2       4      ON     1.0    91.0   13.90       4  172.21  162.31  144.02  111.25   ! Friant RO, use max temp obj.
+8             ST       2       4      ON    91.0   182.0   17.20       4  172.21  162.31  144.02  111.25   !            use max temp obj.
+9             ST       2       4      ON   182.0   244.0   14.45       4  172.21  162.31  144.02  111.25
+10            ST       2       4      ON   244.0   366.0    9.75       4  172.21  162.31  144.02  111.25
+ 
+MONITOR LOC ISEG    ELEV   JBMON   JSMON                     
+1              0    -185       2       4     ! Friant RO       51    -185
+2              0    -185       2       4		       51    -185
+3              0    -185       2       4		       51    -185
+4              0    -185       2       4		       51    -185
+5              0    -160       2       2     ! F-K Canal       51    -160
+6              0    -165       2       3     ! Madera Canal    51    -165
+7              0    -185       2       4     ! Friant RO       51    -185
+8              0    -185       2       4		       51    -185
+9              0    -185       2       4		       51    -185
+10             0    -185       2       4		       51    -185
+
+AUTO ELEVCONTROL
+1             ON
+2             ON
+3             ON
+4             ON
+5             ON
+6             ON
+7             ON
+8             ON
+9             ON
+10            ON
+
+SPLIT TEMP  CNTR    NUM
+             OFF      1
+ 
+Split TEMP ST/WD     JB  YEARLY    TSTR    TEND TTARGET   NOUTS JS1/NW1 JS2/NW2  ELCONT DYNSPLT
+1             ST      1      ON     1.0   365.0     15.       2       1       2      ON     OFF
+
+THRESH1    TEMPN
+               2
+
+THRESH2 TEMPCRIT TEMPCRIT
+           11.11    11.11       ! 52 deg. F
+           15.55    15.55       ! 60 deg. F
