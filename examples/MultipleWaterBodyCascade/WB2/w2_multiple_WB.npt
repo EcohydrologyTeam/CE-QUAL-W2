@@ -1,0 +1,10 @@
+Multiple WB wait ON or OFF (only 2 spaces read)
+ON
+Number of input types to wait for (at least 1)
+1
+Specific inputs to wait for:  branch inflow [BR] or trib [TR], branch/trib index number, and directory (max 240 characters)
+BR, 1, ..\WB1
+BUFFER TIME to run program, days [wait until at least XX days available]
+2
+Delay time in seconds to wait for buffer and recheck
+20

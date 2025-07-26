@@ -1,0 +1,21 @@
+FISH HABITAT AND WQ AVEREAGES INPUT FILE
+#FISH CRITERIA, OUTPUTFILENAME  
+9,'habitat3.opt'
+NAMES OF FISH, TEMP, DO limits [DO limits are ignored if no water quality constituents]
+RainbowTrout,18.0,5.0
+StripedBass,24.0,5.0
+Walleye,24.0,5.0
+WhiteBass,28.0,3.0
+SmallmouthBass,29.0,4.0
+SpottedBass,24.4,6.0
+GizzardShad,26.7,6.0
+LargemouthBass,30.0,5.0
+ChannelCatfish,21.0,5.0
+VOLUME WEIGHTED AVERAGES AT THE FOLLOWING # OF SEGMENTS: NSEG [These lines are ignored if no WQ constituents],Out.opt'putFileName for VOl Weighted Avgs
+3,'volwgtavg.opt'
+SEGMENT NUMBERS FOR VOL WEIGHTED AVERAGES
+10,15,24
+SURFACE WEIGHTED AVERAGES OVER THE FOLLOWING # OF SURFACE LAYERS,OutputFileName for surface averages
+4,'surfvolwtavg.opt'
+OutputFileName for SOD+SED at all time and all segments
+'sodsed.opt'
